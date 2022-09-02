@@ -1,0 +1,22 @@
+{
+  "name": "DocumentacionNotificaciones",
+  "version": "0.0.1",
+  "description": "Documentación para Banco Pichincha",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:tocsystems/firmado-de-documentos/documentacion-firmas-electronicas.git"
+  },
+  "authors": {
+    "name": "Danny Toala",
+    "email": "dannirux@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
