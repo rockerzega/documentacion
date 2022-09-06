@@ -1,9 +1,9 @@
 # Suscripción
- para crear una nueva  suscripción se solicita un `proyecto` 
+ Para crear una nueva  suscripción se solicita un `proyecto` al cual se desea realizar una suscripción.
  
- # Ejemplo 
+  ### Ejemplo
 
- - `proyecto`: Nombre del proyecto
+ - `proyecto`: "Nombre del proyecto"
   
   
 
@@ -12,7 +12,11 @@
 |`proyecto`|Nombre del proyecto|`String`|Si|es un nombre único de proyecto|
 
 
-### Petición 
+## Petición 
+- Para realizar la petición nos dirigimos a la ruta: `localhost:2999/push-user/suscribirse` 
+  posteriormente ingresamos el siguiente formato de petición `JSON` en el body del `POST` 
+
+### Ejemplo
 
 ```json
 {
@@ -42,10 +46,13 @@
 
 # Caducidad de la suscripción
 
-  la caducidad de la suscripción se obtiene de mediante el `id`
+  La caducidad de la suscripción se obtiene mediante el `id` de la suscripción.
 
-### Petición
+## Petición
+- Para realizar la petición nos dirigimos a la ruta: `localhost:2999/push-user/caducidad-suscripcion` 
+  posteriormente ingresamos el siguiente formato de petición `JSON` en el body del `POST` 
 
+ ### Ejemplo
  ```json
 {
 	
@@ -66,6 +73,6 @@
 }
 ```
 
-__***Obteniendo estas respuestas queda verificado el correcto funcionamiento en las rutas  `/suscribirse` y `/caducidad-suscripcion`***__
+__***Obteniendo estas respuestas queda verificado el correcto funcionamiento de las rutas  `/suscribirse` y `/caducidad-suscripcion`***__ .
 
      
