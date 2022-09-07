@@ -25,7 +25,7 @@ module.exports = {
         {
           title: 'Autenticación',
           collapsable: false,
-          path: '/auth',
+          path: '/notificaciones',
           children: [
             'auth/get',
             'auth/post'
@@ -42,7 +42,7 @@ module.exports = {
         {
           title: 'Pushusers',
           collapsable: false,
-          path: '/pushusers',
+          path: '/notificaciones',
           children: [
             'pushusers/post',
           ]
@@ -51,7 +51,7 @@ module.exports = {
         {
           title: 'WebPush',
           collapsable: false,
-          path: '/webPush',
+          path: '/notificaciones',
           children: [
             'webPush/post',
           ]
