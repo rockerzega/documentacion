@@ -12,7 +12,7 @@
 |`proyecto`|Nombre del proyecto|`String`|Si|es un nombre único de proyecto|
 
 
-## Petición 
+## Petición de suscripción
 - Para realizar la petición nos dirigimos a la ruta: `localhost:2999/push-user/suscribirse` 
   posteriormente ingresamos el siguiente formato de petición `JSON` en el body del `POST` 
 
@@ -48,7 +48,7 @@
 
   La caducidad de la suscripción se obtiene mediante el `id` de la suscripción.
 
-## Petición
+## Petición de caducidad
 - Para realizar la petición nos dirigimos a la ruta: `localhost:2999/push-user/caducidad-suscripcion` 
   posteriormente ingresamos el siguiente formato de petición `JSON` en el body del `POST` 
 
@@ -73,6 +73,6 @@
 }
 ```
 
-__***Obteniendo estas respuestas queda verificado el correcto funcionamiento de las rutas  `/suscribirse` y `/caducidad-suscripcion`***__ .
+__Obteniendo estas respuestas queda verificado el correcto funcionamiento de las rutas  `/suscribirse` y `/caducidad-suscripcion`__ .
 
      

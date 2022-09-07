@@ -40,7 +40,7 @@ module.exports = {
           ]
         },
         {
-          title: 'pushusers',
+          title: 'Pushusers',
           collapsable: false,
           path: '/pushusers',
           children: [
@@ -49,7 +49,7 @@ module.exports = {
         },
 
         {
-          title: 'webPush',
+          title: 'WebPush',
           collapsable: false,
           path: '/webPush',
           children: [

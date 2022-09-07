@@ -14,7 +14,7 @@
 |`titulo`|nombre del mensaje|`String`|Si|un titulo para el mensaje|
 |`mensaje`|mensaje que se enviará|`String`|Si|mensaje que se enviará al receptor|
 
-## Petición
+## Petición de mensaje
 - Para realizar la petición nos dirigimos a la ruta: `localhost:2999/web-push/enviar-mensaje` 
   posteriormente ingresamos el siguiente formato de petición `JSON` en el body del `POST` 
 
@@ -32,4 +32,4 @@
 
 }
 ```
-__***Obteniendo esta respuesta queda verificado el correcto funcionamiento de la ruta `/enviar-mensaje`***__ .
+__Obteniendo esta respuesta queda verificado el correcto funcionamiento de la ruta`/enviar-mensaje`__
