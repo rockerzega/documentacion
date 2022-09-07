@@ -25,10 +25,10 @@ module.exports = {
         {
           title: 'Autenticación',
           collapsable: false,
-          path: '/notificaciones',
+          path: '/auth',
           children: [
-            'usuarios/post',
-            'usuarios/get'
+            'auth/get',
+            'auth/post'
           ]
         },
         {
@@ -36,19 +36,27 @@ module.exports = {
           collapsable: false,
           path: '/notificaciones',
           children: [
-            'notificaciones/get',
             'notificaciones/post',
-            'notificaciones/put'
           ]
         },
         {
-          title: 'Eliminar notificaciones',
+          title: 'pushusers',
           collapsable: false,
-          path: '/notificaciones',
+          path: '/pushusers',
           children: [
-            'eliminar/post',
+            'pushusers/post',
           ]
-        }
+        },
+
+        {
+          title: 'webPush',
+          collapsable: false,
+          path: '/webPush',
+          children: [
+            'webPush/post',
+          ]
+        },
+
       ]
     },
   },
