@@ -37,6 +37,7 @@ module.exports = {
           path: '/notificaciones',
           children: [
             'notificaciones/post',
+            'notificaciones/GET'
           ]
         },
         {
