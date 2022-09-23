@@ -32,6 +32,14 @@ module.exports = {
           ]
         },
         {
+          title: 'Entidades',
+          collapsable: false,
+          path: '/notificaciones',
+          children: [
+            'entidades/post'
+          ]
+        },
+        {
           title: 'Notificar',
           collapsable: false,
           path: '/notificaciones',

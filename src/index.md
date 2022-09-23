@@ -8,5 +8,5 @@ features:
   details: Gestionar usuario para el aplicativo actual
 - title: Configuraciones
   details: Configuraciones
-footer: MIT licensed | Copyright © 2020-present TocSystem
+footer: Desarrollado por TocSystems | Copyright © 2022
 ---
