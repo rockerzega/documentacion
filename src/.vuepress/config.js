@@ -17,43 +17,43 @@ module.exports = {
     nav: [
       {
         text: 'Notificaciones',
-        link: '/notificaciones/'
+        link: '/docs/'
       }
     ],
     sidebar: {
-      '/notificaciones/': [
+      '/docs/': [
         {
           title: 'Autenticación',
           collapsable: false,
-          path: '/notificaciones',
+          path: '/docs/',
           children: [
-            'auth/get',
-            'auth/post'
+            '/docs/Auth',
+           
           ]
         },
         {
-          title: 'Notificar',
+          title: 'Entidades',
           collapsable: false,
-          path: '/notificaciones',
+          path: '/docs/',
           children: [
-            'notificaciones/post',
+            '/docs/Entidades',
           ]
         },
         {
-          title: 'Pushusers',
+          title: 'Proyectos',
           collapsable: false,
-          path: '/notificaciones',
+          path: '/docs/',
           children: [
-            'pushusers/post',
+            '/docs/proyectos',
           ]
         },
 
         {
-          title: 'WebPush',
+          title: 'Notificaciones',
           collapsable: false,
-          path: '/notificaciones',
+          path: '/docs/',
           children: [
-            'webPush/post',
+            '/docs/notificaciones',
           ]
         },
 
