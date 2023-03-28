@@ -12,8 +12,7 @@
     "url": "git@github.com:rockerzega/documentacion.git"
   },
   "authors": {
-    "name": "Danny Toala",
-    "email": "dannirux@gmail.com"
+    "name": "TOC"
   },
   "license": "MIT",
   "devDependencies": {
