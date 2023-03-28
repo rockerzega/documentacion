@@ -1,7 +1,7 @@
 {
   "name": "DocumentacionNotificaciones",
   "version": "0.0.1",
-  "description": "Documentación para Banco Pichincha",
+  "description": "Documentación para Notificaciones",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev src",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:tocsystems/firmado-de-documentos/documentacion-firmas-electronicas.git"
+    "url": "git@github.com:rockerzega/documentacion.git"
   },
   "authors": {
     "name": "Danny Toala",
